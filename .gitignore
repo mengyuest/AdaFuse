@@ -1,1 +1,3 @@
 .vscode
+.idea/*
+ada_fuse_pretrained/*.tar

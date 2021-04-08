@@ -1,0 +1,5 @@
+# SomethingV1
+python main_gate.py something RGB --arch batenet50 --num_segments 8 --lr 0.02 --lr_steps 20 40 --epochs 50 --wd 5e-4 --npb --ada_reso_skip --init_tau 0.67 --gsmx --gate_history --gate_hidden_dim 1024 --gbn --grelu --gate_gflops_loss_weight 0.125 --gflops_loss_type upb --shift --batch-size 64 -j 72 --gpus 0 1 2 3 --exp_header sthv1_8_bate50_1024_gsmx_g.125_tsm_upbg_b64_lr.02step_S3_debug --enabled_stages 3
+
+# SomethingV2
+#python main_gate.py somethingv2 RGB --arch batenet50 --num_segments 8 --lr 0.02 --lr_steps 20 40 --epochs 50 --wd 5e-4 --npb --ada_reso_skip --init_tau 0.67 --gsmx --gate_history --gate_hidden_dim 1024 --gbn --grelu --gate_gflops_loss_weight 0.075 --gflops_loss_type real --shift --batch-size 64 -j 72 --gpus 0 1 2 3 --exp_header sthv2_8_bate50_1024_gsmx_g.075_tsm_real_b64_lr.02step_enfrom3_debug --enable_from 3

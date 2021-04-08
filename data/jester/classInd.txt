@@ -1,0 +1,27 @@
+0,Swiping Left
+1,Swiping Right
+2,Swiping Down
+3,Swiping Up
+4,Pushing Hand Away
+5,Pulling Hand In
+6,Sliding Two Fingers Left
+7,Sliding Two Fingers Right
+8,Sliding Two Fingers Down
+9,Sliding Two Fingers Up
+10,Pushing Two Fingers Away
+11,Pulling Two Fingers In
+12,Rolling Hand Forward
+13,Rolling Hand Backward
+14,Turning Hand Clockwise
+15,Turning Hand Counterclockwise
+16,Zooming In With Full Hand
+17,Zooming Out With Full Hand
+18,Zooming In With Two Fingers
+19,Zooming Out With Two Fingers
+20,Thumb Up
+21,Thumb Down
+22,Shaking Hand
+23,Stop Sign
+24,Drumming Fingers
+25,No gesture
+26,Doing other things
